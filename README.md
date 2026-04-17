@@ -1,4 +1,4 @@
-# MITZMAP Chess Engine v1.0 ♟️🤖⚡
+# MITZMAP Chess Engine v1.0
 
 **MITZMAP** is a high-performance chess engine designed specifically for the **Picotron** fantasy workstation. It combines classical search techniques with modern optimizations to deliver a "Master" level experience within a restricted environment.
 
@@ -13,7 +13,7 @@ The name is an acronym for the core algorithms and techniques that power the eng
 - **A**lpha-beta pruning: An optimization of Minimax that "prunes" away branches that cannot possibly influence the final decision.
 - **P**iece-Square Tables (PST): Positional evaluation matrices that guide pieces toward their most effective squares.
 
-## Features 🚀
+## Features
 - **Incremental Zobrist Hashing**: Synchronized with move generation for maximum efficiency.
 - **Stalemate Contempt**: An intelligent evaluation logic that prevents accidental draws when holding a significant material advantage.
 - **Quiet Search (Quiescence)**: Handles tactical "explosions" to avoid the horizon effect.
@@ -31,11 +31,11 @@ Mitzmap/
     └── data/           # Constants and opening book
 ```
 
-## How to use in Picotron 🕹️
+## How to use in Picotron
 To integrate MITZMAP into your own project, copy the `src` folder into your cart and initialize the engine via `ai_start_thinking(color, board, difficulty)`.
 
-## License ⚖️
+## License
 This project is licensed under the **MIT License** - see the LICENSE file for details.
 
 ---
-*Created by [User] & Antigravity AI*
+*Created by 369px*
